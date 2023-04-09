@@ -1,25 +1,31 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown-button,
+.dropdown-content {
+  font-family: Arial, sans-serif;
 }
 
 .background-image {
-    background-image: url('images/IMG_20221217_143756.jpg');
-    background-size: cover;
-    background-position: center top -200px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-left: 0;
-    border-right: 0;
+  background-image: url('images/IMG_20221217_143756.jpg');
+  background-size: cover;
+  background-position: center top -200px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 0;
+  border-right: 0;
 }
   
 .overlay-text {
-    color: #753aff;
-    font-size: 48px;
-    text-align: center;
-    text-shadow: 2px 2px 4px #000;
+  color: #753aff;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
 }
 
 .rotating-image {
